@@ -1,5 +1,5 @@
 /*
- * TheButton.pde
+ * TheButton.ino
  *
  * It emulates a space bar, and you can't do it faster than once per half second.
  *
