@@ -1,0 +1,30 @@
+
+Teensy code for The Button.
+
+What is "The Button" exactly? See here:
+
+  http://rasterweb.net/raster/2011/05/09/the-button/
+
+You'll need to install the Arduino IDE and the Teensduino add-on.
+
+  http://arduino.cc/hu/Main/Software
+
+  http://www.pjrc.com/teensy/teensyduino.html
+
+The code allows the Teensy to emulate a space bar when the button 
+is pressed, and you can't do it faster than once per half second.
+
+In the code, pin 10 is for the button and pin 11 is for the LED.
+
+The on-board LED turns on when you push the button. It's for debugging 
+more than anything else, but you could wire up an external LED to light 
+up if you were so inclined.
+
+
+This code is released under the GPL. 
+
+Pete Prodoehl
+pete@rasterweb.net
+http://rasterweb.net/raster/
+Twitter: @raster
+
